@@ -272,13 +272,17 @@ mc = db.cursor()
 #     print(x)
 
 # NOTE TO OFFSET WHERE YOU WANT TO START with (OFFSET)
-sql = """
-SELECT *
-FROM
-customers
-LIMIT 5 OFFSET 2
-"""
-mc.execute(sql)
-res = mc.fetchall()
-for x in res:
-    print(x)
+# sql = """
+# SELECT *
+# FROM
+# customers
+# LIMIT 5 OFFSET 2
+# """
+# mc.execute(sql)
+# res = mc.fetchall()
+# for x in res:
+#     print(x)
+
+
+# SECTION ___ ABOUT JOINING
+# https://www.w3schools.com/python/python_mysql_join.asp
